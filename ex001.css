@@ -1,69 +1,85 @@
-
 * {
-    margin: 0;
-    font-family: Michroma
+  margin: 0;
+  font-family: Michroma;
 }
 
 body {
-  
-  margin-top: 60px;  display: flex;
+  margin-top: 60px;
+  display: flex;
   justify-content: center;
   align-items: center;
-background-image: url("pq.jpg");
-background-size: cover;
-
+  background-image: url("pq.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
-    color: aliceblue;
-    border-style: dashed;
-    border-radius: 25px;
-    text-align: center;
-    padding: 20px;
-    border-radius: 50px;
+  color: aliceblue;
+  border-style: dashed;
+  border-radius: 25px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 50px;
 }
 
 p {
-    background-color: #ffffff25;
-    font-size: 18px;
-    margin: 25px;
-    padding: 10px;
-    color: #ffffff;
-    border-radius: 50px;
-    padding: 30px;
-
+  background-color: #ffffff25;
+  font-size: 18px;
+  margin: 25px;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 30px;
 }
 
 button {
-    color: #DDB176;
-    background-color: oldlace;
-    font-size: 25px;
-    border-radius: 25px;
-    padding: 20px;
-
-
-
-
+  color: #ddb176;
+  background-color: oldlace;
+  font-size: 25px;
+  border-radius: 25px;
+  padding: 20px;
 }
 
-button:hover{
-    color: oldlace;
-    background-color: #DDB176;
+button:hover {
+  color: oldlace;
+  background-color: #ddb176;
+  transition: all 0.7s ease;
 }
 
 button:active {
-color: blue;
-background-color: 
+  color: blue;
+  background-color:aqua;
 }
 nav {
-    text-align: center;
-    word-spacing: 20px;
+  text-align: center;
+  word-spacing: 20px;
 }
 a {
-    color: aliceblue;
-text-decoration: none;
+  color: aliceblue;
+  text-decoration: none;
+
 }
 a:hover {
-    color: #DDB176;
+  color: #ddb176;
+    transition: all 0.7s ease;
+
 }
-p:hover {background-color: #DDB176;}
+p:hover {
+  background-color: #ddb176;
+}
+
+ul {
+    background-color: #ddb176;
+    color: white;
+    margin-top: 100px;
+    border-radius: 10px;
+    line-height: 60px;
+    font-size: 25px;
+    padding: 45px;
+}
+li:first-child {
+    font-weight: 900;
+        color: #ddb176();
+        filter: invert(1);
+}
